@@ -1,5 +1,7 @@
 Hello, world!
 
+[Lab Report 1](https://chengqianc.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+
 *Italic*
 **Bold**
 # Heading 1
