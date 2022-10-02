@@ -3,6 +3,7 @@ Hello, world!
 [Lab Report 1](https://chengqianc.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
 *Italic*
+
 **Bold**
 
 # Heading 1
@@ -11,7 +12,7 @@ Hello, world!
 #### Heading 4
 ##### Heading 5
 
-[Link](https://ucsd.edu/)
+[Link to our school website](https://ucsd.edu/)
 
 ![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tim_Hawkinsons_Bear_%288278974671%29.jpg/2560px-Tim_Hawkinsons_Bear_%288278974671%29.jpg)
 
