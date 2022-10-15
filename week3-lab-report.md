@@ -49,10 +49,13 @@ class SearchEngine {
     }
 }
 ```
+
 `Screenshot of using add`
 ![Image](week3-lab-report-screenshots/sc9.png)
+
 `Screenshot of using add`
 ![Image](week3-lab-report-screenshots/sc8.png)
+
 `Screenshot of using query`
 ![Image](week3-lab-report-screenshots/sc7.png)
 
