@@ -5,6 +5,8 @@
 
 Go to this [website](https://code.visualstudio.com/) to download Visual Studio Code. Select all the default options when downloading it. And after the initial download, one should be able to see the page as shown in the screenshot above.
 
+---
+
 ![Image](week1-lab-report-screenshots/screenshot2.png)
 
 **Remotely Connecting**
@@ -15,11 +17,15 @@ In this section, we learn how to use VS Code to connect to a remote computer to 
 
 After confirming with yes to the prompt and entering the correct password, one will be switching to the terminal on the server. Also, one will be greeted with a welcome messsage and will able to see a summary of the current status of the remote servers.
 
+---
+
 ![Image](week1-lab-report-screenshots/screenshot3.png)
 
 **Trying Some Commands**
 
 In this section, I tried several different commands. I used the ls command to see the list of files and direcotries, used cd to change into different directories, and used mkdir and rm to create and delete new directories.
+
+---
 
 ![Image](week1-lab-report-screenshots/screenshot4.png)
 
@@ -31,6 +37,8 @@ In the above screenshot, I copied over the java file to the remote and tried run
 `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/`
 
 By using the above command, I was able to copy the java file to the home directory on the remote server.
+
+---
 
 ![Image](week1-lab-report-screenshots/screenshot5a.png)
 ![Image](week1-lab-report-screenshots/screenshot5b.png)
@@ -47,6 +55,8 @@ Then back on the local computer, do the following:
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
+
+---
 
 ![Image](week1-lab-report-screenshots/screenshot6a.png)
 ![Image](week1-lab-report-screenshots/screenshot6b.png)
