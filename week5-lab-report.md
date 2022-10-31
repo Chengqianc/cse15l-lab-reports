@@ -19,6 +19,7 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find . -type d
 ./technical/biomed
 ./technical/911report
 ```
+This command recursively searches for all the directories inside the current working directory and prints them all out one by one.
 
 ```
 chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical/government -type d
@@ -30,6 +31,7 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical/government -type d
 ./technical/government/Post_Rate_Comm
 ./technical/government/Media
 ```
+This command recursively searches for all the directories inside the direcory ./technical/government and prints them all out one by one.
 
 ```
 chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical -type d
@@ -45,6 +47,7 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical -type d
 ./technical/biomed
 ./technical/911report
 ```
+This command recursively searches for all the direcotries inside the directory ./technical and prints them all out one by one.
 
 ### find . -type f -size -1024c
 ```
@@ -55,12 +58,14 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find . -type f -size -1024c
 ./technical/plos/pmed.0020191.txt
 ./technical/plos/pmed.0020226.txt
 ```
+This command recursively searches for all files inside the curretn working directory that have less than 1024 characters and prints them all out one by one.
 
 ```
 chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical  -type f -size -1024c
 ./technical/plos/pmed.0020191.txt
 ./technical/plos/pmed.0020226.txt
 ```
+This command recursively searches for all files inside the ./technical directory that have less than 1024 characters and prints them all out one by one.
 
 ```
 chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical  -type f -size -2048c
@@ -82,7 +87,7 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical  -type f -size -2048
 ./technical/plos/pmed.0020082.txt
 ./technical/plos/pmed.0020120.txt
 ```
-
+This command recursively searches for all files inside ./technical directory that have less than 2048 characters and prints them all out one by one.
 
 ### find ./technical/911report -name "*.txt"
 ```
@@ -105,6 +110,7 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical/911report -name "*.t
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
 ```
+This command recursviely searches for files inside the ./technical/911report direcotry that have .txt extensions and prints them all out one by one.
 
 ```
 chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical/government/Alcohol_Problems  -name "*.txt" 
@@ -113,6 +119,7 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find ./technical/government/Alcohol_P
 ./technical/government/Alcohol_Problems/DraftRecom-PDF.txt
 ./technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
+This command recursively searches for files inside ./technical/government/Alcohol_Problems directory that have .txt extensions and prints them all out one by one.
 
 ```
 chengqian@Chengs-MacBook-Air skill-demo1 % find .  -name "*.java" 
@@ -120,3 +127,4 @@ chengqian@Chengs-MacBook-Air skill-demo1 % find .  -name "*.java"
 ./Server.java
 ./TestDocSearch.java
 ```
+This command recursively searches for files inside current working directory that have .java extensions and prints them all out one by one.
