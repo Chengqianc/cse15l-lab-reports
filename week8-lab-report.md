@@ -67,7 +67,12 @@ Example#3 using https://github.com/ucsd-cse15l-f22/list-methods-filename, which 
 
 
 *Now tracing based on example#2*
+* For each line with a command, what its standard output and standard error are for this run, and whether its return code was zero or nonzero
+
 ![image](week8-lab-report-screenshots/trace.png)
+
+* For each line with an if statement, whether the condition was true or false, and why
+* Indicate each line that does not run (maybe because it is in an if branch that doesn’t evaluate, or after an early exit)
 
 ```
 if [[ -f $FILENAME ]]
