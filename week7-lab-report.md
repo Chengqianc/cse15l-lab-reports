@@ -39,6 +39,7 @@ We entered in ":wq", which exits out Vim with all changes saved.
 
 
 ### Part 2
+---
 Q: Consider performing the edit task you chose and re-running the program when you have to run it remotely. Time yourself twice:
 
 * Once, start in Visual Studio Code and make the edit there, then scp the file to the remote server and run it there to confirm it works (you can just run bash test.sh on the remote to test it out). Consider having the appropriate scp command in your command history or easily copy-pasteable!
