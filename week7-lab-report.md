@@ -39,6 +39,16 @@ We entered in ":wq", which exits out Vim with all changes saved.
 
 
 ### Part 2
+Consider performing the edit task you chose and re-running the program when you have to run it remotely. Time yourself twice:
+
+* Once, start in Visual Studio Code and make the edit there, then scp the file to the remote server and run it there to confirm it works (you can just run bash test.sh on the remote to test it out). Consider having the appropriate scp command in your command history or easily copy-pasteable!
+* Second, start already logged into a ssh session. Then, make the edit for the task you chose in Vim, then exit Vim and run bash test.sh.
+
+Report how long it took you to make the edit in seconds in both styles, and any difficulties or details that came up in doing so.
+
+It took me about 110 seconds in both cases. In the first case, the main thing that slows me down a bit was typing in the server address during scp and ssh. In the second case, however, the thing that took me time was using vim as I needed to make sure I type in the corect sequence of vim commands. 
+
+---
 Q: Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
 A: I would want to just use Vim to edit the code on the remote server if it's a small change and ultimately I want the code change to be reflected on the remote server.
